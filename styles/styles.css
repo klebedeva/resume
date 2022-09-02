@@ -1,0 +1,206 @@
+.resume-years-workplace-name {
+  padding-right: 16px;
+}
+.resume-years-workplace-name p {
+  color: rgb(216, 216, 216);
+  margin: 0;
+}
+
+.resume-years-workplace {
+  display: flex;
+  justify-content: flex-start;
+}
+.resume-years-workplace-name {
+  padding-right: 16px;
+}
+.resume-years-workplace-name-text {
+  font-size: 24px;
+}
+.resume-years-workplace-name p {
+  color: rgb(203, 206, 210);
+  margin: 0;
+}
+
+.resume-item {
+  padding-bottom: 16px;
+  border-bottom: rgb(216, 218, 224) solid 1px;
+}
+
+.about .container a {
+  text-decoration: none;
+  color: blue;
+}
+.about .container p {
+  font-size: 1em;
+}
+
+.name p {
+  font-size: 0.8em;
+}
+
+.project img {
+  width: 100%;
+}
+
+.header {
+  border-bottom: 1px solid rgb(203, 206, 210);
+  height: 60px;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.header li {
+  display: inline-block;
+  background-color: white;
+}
+.header li a {
+  display: block;
+  line-height: 60px;
+  height: 60px;
+  padding: 0 10px;
+}
+.header li a:hover, .header li a:active {
+  background-color: rgb(216, 218, 224);
+  color: white;
+}
+.header ul {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 0;
+  padding-bottom: 0;
+  align-items: center;
+  height: 100%;
+}
+.header h3 {
+  margin: 0;
+}
+.header p {
+  margin: 0;
+  color: rgb(203, 206, 210);
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.buttons {
+  background-color: blue;
+  border: none;
+  border-radius: 24px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.buttons a {
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 60px 10px 24px;
+}
+.container ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.container .note-tages a {
+  display: inline-block;
+  margin: 8px;
+  padding: 4px 8px;
+  border-style: solid;
+  border-color: rgb(216, 216, 216);
+  border-radius: 8px;
+}
+.container .note-tages a:hover {
+  background-color: rgb(203, 206, 210);
+  color: blue;
+}
+.container .note-tages a:first-child {
+  margin-left: 0;
+}
+.container .note {
+  border-bottom: 1px solid rgb(216, 216, 216);
+  padding: 16px 0;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  margin-left: 1em;
+}
+
+* {
+  font-family: Charis SIL, sans-serif;
+}
+
+.header-menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 800px) {
+  .header-menu button {
+    display: none;
+  }
+}
+@media screen and (max-width: 800px) {
+  .header-menu ul,
+.header-menu .controls {
+    display: none;
+  }
+}
+.footer li {
+  margin-left: 16px;
+  color: blue;
+}
+.footer li a:hover,
+.footer li a:active {
+  background-color: white;
+  color: rgb(187, 50, 255);
+}
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+.footer ul a {
+  color: blue;
+}
+
+.table {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+
+@media screen and (max-width: 800px) {
+  .table {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 600px) {
+  .table {
+    grid-template-columns: 1fr;
+  }
+}/*# sourceMappingURL=styles.css.map */

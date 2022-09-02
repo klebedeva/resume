@@ -1,0 +1,50 @@
+@import "_variables.scss";
+
+.resume-years-workplace-name {
+    padding-right: 16px;
+  
+    p {
+      color: $border-color;
+      margin: 0;
+    }
+  }
+  
+  .resume-years-workplace {
+    display: flex;
+    justify-content: flex-start;
+  
+    &-name {
+      padding-right: 16px;
+  
+      &-text {
+        font-size: 24px;
+      }
+  
+      p {
+        color: $secondary-color;
+        margin: 0;
+      }
+  
+  
+    }
+  }
+  
+  .resume-item {
+    padding-bottom: 16px;
+    border-bottom: $hover-color solid 1px;
+  }
+
+  .about .container {
+    a {
+      text-decoration: none;
+      color: $link-color;
+    }
+  
+    p {
+      font-size: 1em;
+    }
+  }
+  
+  .name p {
+    font-size: 0.8em;
+  }
